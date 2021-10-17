@@ -26,7 +26,6 @@ The following **additional** features are implemented:
 - [x] Change the theme of the app
 - [x] The user can adjust the tip percentages on the segmented control and is updated accordingly
 - [x] User can split the bill and see the tip and total each person needs to pay
-- [x] User can change the theme of the home tips home page
 - [x] User can navigate back and forth across view controllers
 
 ## Video Walkthrough
