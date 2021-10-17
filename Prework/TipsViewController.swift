@@ -56,7 +56,8 @@ class TipsViewController: UIViewController {
         print("view did appear in TipsViewController")
         billAmountTextField.keyboardType = UIKeyboardType.numberPad
         splitCountTextField.keyboardType = UIKeyboardType.numberPad
-        
+        //the badTipPercentage, goodTipPercentage, excellentTipPercentage will all be pulled from USERDEFAULTS
+        //updated accordingly
         let segmentedTipValue_Zero = (defaults.string(forKey: "badTipPercentage") ?? "0.15")
         let segmentedTipValue_One = (defaults.string(forKey: "goodTipPercentage") ?? "0.18")
         let segmentedTipValue_Two = (defaults.string(forKey: "excellentTipPercentage") ?? "0.20")
