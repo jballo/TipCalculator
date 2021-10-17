@@ -7,6 +7,7 @@
 
 import UIKit
 
+
 class Settings_View_Controller: UIViewController {
     
     let defaults = UserDefaults.standard
@@ -17,9 +18,8 @@ class Settings_View_Controller: UIViewController {
     @IBOutlet weak var badTipPercentageControl: UISlider!
     
     
+    @IBOutlet weak var tempTheme: UILabel!
     
-    
-    @IBOutlet weak var temp: UILabel!
     @IBOutlet weak var excellentTipReadOut: UILabel!
     @IBOutlet weak var goodTipReadOut: UILabel!
     @IBOutlet weak var badTipReadOut: UILabel!
@@ -38,7 +38,7 @@ class Settings_View_Controller: UIViewController {
         themeColorBackground.layer.cornerRadius = 20
         tipSliderColorBackground.layer.masksToBounds = true
         tipSliderColorBackground.layer.cornerRadius = 20
-        temp.text = defaults.string(forKey: "backCol")!
+        tempTheme.text = defaults.string(forKey: "backCol")!
 //        defaults.synchronize()
         // Do any additional setup after loading the view.
     }
@@ -81,18 +81,18 @@ class Settings_View_Controller: UIViewController {
     
     
     @IBAction func setThemeToSpring(_ sender: Any) {
-        temp.text = "spring"
-        defaults.setValue(temp.text, forKey: "backCol")
+        tempTheme.text = "spring"
+        defaults.setValue(tempTheme.text, forKey: "backCol")
         defaults.synchronize()
     }
     @IBAction func setThemeToSummer(_ sender: Any) {
-        temp.text = "summer"
-        defaults.setValue(temp.text, forKey: "backCol")
+        tempTheme.text = "summer"
+        defaults.setValue(tempTheme.text, forKey: "backCol")
         defaults.synchronize()
     }
     @IBAction func setThemeToFall(_ sender: Any) {
-        temp.text = "fall"
-        defaults.setValue(temp.text, forKey: "backCol")
+        tempTheme.text = "fall"
+        defaults.setValue(tempTheme.text, forKey: "backCol")
         defaults.synchronize()
     }
     

@@ -346,7 +346,7 @@
                         <outlet property="excellentTipReadOut" destination="tcI-bi-64a" id="5dR-Fw-Ezt"/>
                         <outlet property="goodTipPercentageControl" destination="LlX-fT-ySE" id="GYm-Sf-azK"/>
                         <outlet property="goodTipReadOut" destination="1OZ-zM-6r4" id="qBP-fM-TtA"/>
-                        <outlet property="temp" destination="OPA-KT-lK1" id="hYY-dH-66R"/>
+                        <outlet property="tempTheme" destination="OPA-KT-lK1" id="xxq-dO-2Be"/>
                         <outlet property="themeColorBackground" destination="ORY-Sc-Ctq" id="QgL-eu-R0D"/>
                         <outlet property="tipSliderColorBackground" destination="jcW-gp-Goy" id="8vT-Ns-Phu"/>
                     </connections>
