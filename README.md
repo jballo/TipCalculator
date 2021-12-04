@@ -4,7 +4,6 @@
 
 Submitted by: **Jonathan Ballona Sanchez**
 
-Time spent: **7** hours spent in total
 
 ## User Stories
 
